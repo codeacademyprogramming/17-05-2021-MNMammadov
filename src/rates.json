@@ -1,5 +1,11 @@
 [
     {
+        "code": "AZN",
+        "nominal": "1",
+        "name": "Azərbaycan manatı",
+        "value": "1"
+    },
+    {
         "code": "CZK",
         "nominal": "1",
         "name": "Çexiya kronu",

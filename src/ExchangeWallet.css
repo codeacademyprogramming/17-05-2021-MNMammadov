@@ -73,6 +73,7 @@
     color: #9DA5B7;
     outline: none;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .exchange-wallet__switch {
@@ -118,4 +119,5 @@
     display: block;
     margin: 0 auto;
     margin-top: 40px;
+    cursor: pointer;
 }
