@@ -1,0 +1,121 @@
+.d-flex {
+    display: flex;
+}
+
+.f-direction-column {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.exchange-wallet {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 185px 26px;
+    background-color: #ffffff;
+}
+
+.exchange-wallet__calc {
+    padding: 25px;
+    padding-bottom: 40px;
+    background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #F1F3F6;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -10px -10px 15px #FFFFFF, 10px 10px 15px rgba(202, 206, 220, 0.623771);
+    border-radius: 10px;
+}
+
+.exchange-wallet__amount {
+    background: rgba(255, 255, 255, 0.760435);
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #162548;
+    outline: none;
+}
+
+.exchange-wallet__amount-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #9DA5B7;
+    margin-bottom: 6px;
+}
+
+.exchange-wallet__currency {
+    background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #FFFFFF;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.5), 7px 7px 10px rgba(202, 206, 220, 0.31);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+    color: #9DA5B7;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.exchange-wallet__switch {
+    background: linear-gradient(rgba(241, 243, 246, 1),  rgba(157, 165, 183, 1), rgba(241, 243, 246, 1));
+    width: 100%;
+    height: 1px;
+    margin-top: 55px;
+}
+
+.exchange-wallet__i {
+    background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #FFFFFF;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.5), 7px 7px 10px rgba(202, 206, 220, 0.31);
+    border-radius: 10px;
+    padding: 9px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+.exchange-wallet__return-amount {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #162548;
+    margin: 0;
+}
+
+.button {
+    padding: 19px 118px;
+    background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #1654F0;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.5), 7px 7px 10px rgba(119, 148, 214, 0.538134);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}

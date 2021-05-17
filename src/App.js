@@ -1,8 +1,8 @@
+import ExchangeWallet from './ExchangeWallet';
+
 function App() {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <ExchangeWallet />
   );
 }
 
