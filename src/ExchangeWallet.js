@@ -4,9 +4,9 @@ import arrowDownUp from './arrow-down-up.svg';
 import rates from './rates.json';
 
 function ExchangeWallet() {
-    const [convertAmount, setConvertAmount] = React.useState("1");
-    const [fromCurrency, setFromCurrency] = React.useState("USD");
-    const [toCurrency, setToCurrency] = React.useState("AZN");
+    const [convertAmount, setConvertAmount] = React.useState("0");
+    const [fromCurrency, setFromCurrency] = React.useState("--");
+    const [toCurrency, setToCurrency] = React.useState("--");
     const [convertedAmount, setConvertedAmount] = React.useState("0");
 
     function handleInputChange(event) {
