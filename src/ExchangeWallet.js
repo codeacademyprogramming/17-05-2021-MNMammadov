@@ -40,6 +40,7 @@ function ExchangeWallet() {
                     <div>
                         <label htmlFor="currency"></label>
                         <select value={fromCurrency} onChange={handleFromCurrencyChange} name="currency" className="exchange-wallet__currency">
+                            <option value="--">--</option>
                             {rates.map((rate) => <option value={rate.code}>{rate.code}</option>)}
                         </select>
                     </div>
@@ -56,6 +57,7 @@ function ExchangeWallet() {
                     <div>
                         <label htmlFor="currency"></label>
                         <select value={toCurrency} onChange={handleToCurrencyChange} name="currency" className="exchange-wallet__currency">
+                            <option value="--">--</option>
                             {rates.map((rate) => <option value={rate.code}>{rate.code}</option>)}
                         </select>
                     </div>
